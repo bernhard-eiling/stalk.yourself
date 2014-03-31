@@ -1,0 +1,75 @@
+body {
+	width: 100%;
+	height: 100%;
+	/*background-color: black;*/
+	background:url(res/img01.jpg)repeat;
+	margin: 0px;
+	padding: 0px;
+}
+
+#canvas{
+	/*padding: 30px 0px 0px 0px;*/
+	border:17px double black;
+	border-radius: 10px; 
+	-moz-border-radius: 50px;
+	/*margin: 20px;*/
+	background:url(res/img02.jpg)repeat;
+	padding-left: 0;
+    padding-right: 0;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /*width: 680px;*/
+    width: 400px;
+
+	
+	-webkit-box-shadow: 0 20px 10px -10px black;
+	   -moz-box-shadow: 0 20px 10px -10px black;
+	        box-shadow: 0 20px 10px -10px black;
+	/*margin: 0px 500px 0px 500px;*/
+}
+
+/*canvas {
+   display: inline;
+   display: 
+}
+*/
+#punchline {
+	color: white;
+	text-align: center;
+	text-shadow: 0.1em 0.1em 0.2em black;
+	/*font-family: System;*/
+	font-family: monospace;
+	font-size: 80px;
+	padding: 30px 0px 0px 0px;
+}
+
+img {
+	height: 144px;
+}
+
+#button {
+	/*position: absolute;*/
+	text-align: center;
+	font-family: monospace;
+	/*color: white;*/
+	border:5px inset black;
+	color: rgb(50,28,28);
+	font-size: 50px;
+	font-weight: bold;
+	text-shadow: 0.02em 0.02em 0em black;
+	/*text-shadow: 1px 1px black, -2px -2px #333;*/
+	top: 20%;
+	left: 50%;
+	padding: 10px;
+	/*margin: 20px 500px 0px 500px;*/
+	margin: 20px 25% 0px 25%;
+	/*background-color: grey;*/ 
+	background:url(res/img05.jpg)repeat;
+	border-radius: 10px; 
+	cursor: pointer;
+	-webkit-box-shadow: 0 10px 16px -5px black;
+	   -moz-box-shadow: 0 10px 16px -5px black;
+	        box-shadow: 0 10px 16px -5px black;
+}
